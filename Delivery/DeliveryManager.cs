@@ -25,22 +25,22 @@ public static bool Insert (Consignment consignment)
 {
  List <Consignment> allConsignments= ReStore("consignments.json");
  allConsignments.Add(consignment);
- bool status =Store("consignments.json",AllConsignments);
+ bool status =Store("consignments.json",allConsignments);
  return status;
 }
 public static bool Update (Consignment consignment)
 {
   bool status=false;
 
-  List<Consignment>allConsignments= ReStore("consignment.json");
+  List<Consignment>allConsignments= ReStore("consignments.json");
 
     foreach(Consignment theConsignment in allConsignments)
         {
-           if (TheConsignment.TransectionId== consignment.TransectionId)
+           if (theConsignment.TransectionId== consignment.TransectionId)
              {
                TheConsignment.Pickuplocation= consignment.Pickuplocation;
                TheConsignment.DeliveryAddress=consignment.DeliveryAddress;
-               Store("Consignmet.json",AllConsignments);
+               Store("consignmets.json",allConsignments);
                status=true;
              }
 
@@ -50,18 +50,18 @@ public static bool Update (Consignment consignment)
 }
 public static List<Consignment> Getall()
 {
-List <Consignment>allConsignment=ReStore("Consignment.json");
+List <Consignment>allConsignment=ReStore("consignments.json");
 return allConsignment;
 
 }
 
 public static Consignment GetByTransectionID(string TransectionId)
 {
- List<Consignment>allConsignments=ReStore("Consignment.json");
+ List<Consignment>allConsignments=ReStore("consignments.json");
  {
   
   Consignment foundConsignment=null;
-  List<Consignment>allConsignments= ReStore("Consignments.json");
+  List<Consignment>allConsignments= ReStore("consignments.json");
 
 
 foreach(Consignment theConsignment in allConsignments)
@@ -98,12 +98,6 @@ public static bool Delete(string TransectionId)
         }
     return  status;
 
-
-
-
-
-
+    }
 }
-}
-
 
