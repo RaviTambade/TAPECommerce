@@ -1,0 +1,12 @@
+D:\TAP\HandsON\ECommerce\Catalog\bin\Debug\net6.0\Catalog.deps.json
+D:\TAP\HandsON\ECommerce\Catalog\bin\Debug\net6.0\Catalog.dll
+D:\TAP\HandsON\ECommerce\Catalog\bin\Debug\net6.0\Catalog.pdb
+D:\TAP\HandsON\ECommerce\Catalog\obj\Debug\net6.0\Catalog.csproj.AssemblyReference.cache
+D:\TAP\HandsON\ECommerce\Catalog\obj\Debug\net6.0\Catalog.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAP\HandsON\ECommerce\Catalog\obj\Debug\net6.0\Catalog.AssemblyInfoInputs.cache
+D:\TAP\HandsON\ECommerce\Catalog\obj\Debug\net6.0\Catalog.AssemblyInfo.cs
+D:\TAP\HandsON\ECommerce\Catalog\obj\Debug\net6.0\Catalog.csproj.CoreCompileInputs.cache
+D:\TAP\HandsON\ECommerce\Catalog\obj\Debug\net6.0\Catalog.dll
+D:\TAP\HandsON\ECommerce\Catalog\obj\Debug\net6.0\refint\Catalog.dll
+D:\TAP\HandsON\ECommerce\Catalog\obj\Debug\net6.0\Catalog.pdb
+D:\TAP\HandsON\ECommerce\Catalog\obj\Debug\net6.0\ref\Catalog.dll

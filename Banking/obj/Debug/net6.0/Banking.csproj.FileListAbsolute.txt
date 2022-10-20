@@ -1,0 +1,12 @@
+D:\TAP\HandsON\ECommerce\Banking\obj\Debug\net6.0\Banking.csproj.AssemblyReference.cache
+D:\TAP\HandsON\ECommerce\Banking\obj\Debug\net6.0\Banking.GeneratedMSBuildEditorConfig.editorconfig
+D:\TAP\HandsON\ECommerce\Banking\obj\Debug\net6.0\Banking.AssemblyInfoInputs.cache
+D:\TAP\HandsON\ECommerce\Banking\obj\Debug\net6.0\Banking.AssemblyInfo.cs
+D:\TAP\HandsON\ECommerce\Banking\obj\Debug\net6.0\Banking.csproj.CoreCompileInputs.cache
+D:\TAP\HandsON\ECommerce\Banking\bin\Debug\net6.0\Banking.deps.json
+D:\TAP\HandsON\ECommerce\Banking\bin\Debug\net6.0\Banking.dll
+D:\TAP\HandsON\ECommerce\Banking\bin\Debug\net6.0\Banking.pdb
+D:\TAP\HandsON\ECommerce\Banking\obj\Debug\net6.0\Banking.dll
+D:\TAP\HandsON\ECommerce\Banking\obj\Debug\net6.0\refint\Banking.dll
+D:\TAP\HandsON\ECommerce\Banking\obj\Debug\net6.0\Banking.pdb
+D:\TAP\HandsON\ECommerce\Banking\obj\Debug\net6.0\ref\Banking.dll

@@ -1,0 +1,174 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Banking/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Banking.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Banking.dll": {}
+        }
+      },
+      "BusinessProcessing/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Catalog": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BusinessProcessing.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BusinessProcessing.dll": {}
+        }
+      },
+      "Catalog/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Catalog.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Catalog.dll": {}
+        }
+      },
+      "Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Common.dll": {}
+        }
+      },
+      "CRM/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Banking": "1.0.0",
+          "BusinessProcessing": "1.0.0",
+          "Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CRM.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRM.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Banking/1.0.0": {
+      "type": "project",
+      "path": "../Banking/Banking.csproj",
+      "msbuildProject": "../Banking/Banking.csproj"
+    },
+    "BusinessProcessing/1.0.0": {
+      "type": "project",
+      "path": "../BusinessProcessing/BusinessProcessing.csproj",
+      "msbuildProject": "../BusinessProcessing/BusinessProcessing.csproj"
+    },
+    "Catalog/1.0.0": {
+      "type": "project",
+      "path": "../Catalog/Catalog.csproj",
+      "msbuildProject": "../Catalog/Catalog.csproj"
+    },
+    "Common/1.0.0": {
+      "type": "project",
+      "path": "../Common/Common.csproj",
+      "msbuildProject": "../Common/Common.csproj"
+    },
+    "CRM/1.0.0": {
+      "type": "project",
+      "path": "../CRM/CRM.csproj",
+      "msbuildProject": "../CRM/CRM.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Banking >= 1.0.0",
+      "CRM >= 1.0.0",
+      "Catalog >= 1.0.0",
+      "Common >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\tfladmin\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\TAP\\HandsON\\ECommerce\\TestApp\\TestApp.csproj",
+      "projectName": "TestApp",
+      "projectPath": "D:\\TAP\\HandsON\\ECommerce\\TestApp\\TestApp.csproj",
+      "packagesPath": "C:\\Users\\tfladmin\\.nuget\\packages\\",
+      "outputPath": "D:\\TAP\\HandsON\\ECommerce\\TestApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\tfladmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\TAP\\HandsON\\ECommerce\\Banking\\Banking.csproj": {
+              "projectPath": "D:\\TAP\\HandsON\\ECommerce\\Banking\\Banking.csproj"
+            },
+            "D:\\TAP\\HandsON\\ECommerce\\Catalog\\Catalog.csproj": {
+              "projectPath": "D:\\TAP\\HandsON\\ECommerce\\Catalog\\Catalog.csproj"
+            },
+            "D:\\TAP\\HandsON\\ECommerce\\Common\\Common.csproj": {
+              "projectPath": "D:\\TAP\\HandsON\\ECommerce\\Common\\Common.csproj"
+            },
+            "D:\\TAP\\HandsON\\ECommerce\\CRM\\CRM.csproj": {
+              "projectPath": "D:\\TAP\\HandsON\\ECommerce\\CRM\\CRM.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
