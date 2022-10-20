@@ -38,8 +38,8 @@ public static bool Update (Consignment consignment)
         {
            if (theConsignment.TransectionId== consignment.TransectionId)
              {
-               TheConsignment.Pickuplocation= consignment.Pickuplocation;
-               TheConsignment.DeliveryAddress=consignment.DeliveryAddress;
+               theConsignment.Pickuplocation= consignment.Pickuplocation;
+               theConsignment.DeliveryAddress=consignment.DeliveryAddress;
                Store("consignmets.json",allConsignments);
                status=true;
              }
