@@ -23,8 +23,8 @@ public static List<Consignment>ReStore(string fileName)
 }
 public static bool Insert (Consignment consignment)
 {
- List <Consignment> AllConsignments= ReStore("consignments.json");
- AllConsignments.Add(consignment);
+ List <Consignment> allConsignments= ReStore("consignments.json");
+ allConsignments.Add(consignment);
  bool status =Store("consignments.json",AllConsignments);
  return status;
 }
@@ -32,9 +32,9 @@ public static bool Update (Consignment consignment)
 {
   bool status=false;
 
-  List<Consignment>AllConsignments= ReStore("consignment.json");
+  List<Consignment>allConsignments= ReStore("consignment.json");
 
-    foreach(Consignment TheConsignment in AllConsignments)
+    foreach(Consignment theConsignment in allConsignments)
         {
            if (TheConsignment.TransectionId== consignment.TransectionId)
              {
@@ -50,14 +50,14 @@ public static bool Update (Consignment consignment)
 }
 public static List<Consignment> Getall()
 {
-List <Consignment>AllConsignment=ReStore("Consignment.json");
-return AllConsignment;
+List <Consignment>allConsignment=ReStore("Consignment.json");
+return allConsignment;
 
 }
 
 public static Consignment GetByTransectionID(string TransectionId)
 {
- List<Consignment>AllConsignments=ReStore("Consignment.json");
+ List<Consignment>allConsignments=ReStore("Consignment.json");
  {
   
   Consignment foundConsignment=null;
