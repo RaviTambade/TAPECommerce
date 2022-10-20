@@ -92,7 +92,7 @@ public static bool Delete(string TransectionId)
         if(theConsignment.TransectionId==TransectionId)
            {
               allConsignments.Remove(theConsignment);
-              Store("Consignment.json", allConsignments);
+              Store("consignment.json", allConsignments);
               status=true;
            }    
         }
