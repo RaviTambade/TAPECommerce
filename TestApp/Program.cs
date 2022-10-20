@@ -29,6 +29,8 @@ Manager.Display(allRetrivedPeople);
 */
 //Banking Test
 using Banking;
+using Catalog;
+using BusinessProcessing;
 
 /*List<Account> allAccounts=AccountManger.GetAll();*/
 Account acct1=new Account{
@@ -60,3 +62,66 @@ Console.WriteLine("{0}  {1}  {2}", acct.Id, acct.Holder, acct.Balance);
 
 Console.WriteLine("Thank you so much for using our services.");
 Console.WriteLine ("Updated output");
+
+
+
+
+
+
+
+
+   Order ord1=new Order{
+             Id=27,
+             Date=new DateTime(2022,12,11),
+             TotalAmount=20000,
+             Status="received",
+     
+          
+};
+          OrderManager.Insert(ord1);   
+
+        Order ord2=new Order{
+              Id=24,
+             Date=new DateTime(2022,08,04),
+             TotalAmount=78000,
+             Status="processing",
+           
+             };
+
+
+             OrderManager.Insert(ord2);
+
+
+             Order ord3=new Order{
+              Id=24,
+             Date=new DateTime(2022,04,01),
+             TotalAmount=7800,
+             Status="processing",
+           
+             };
+
+
+             OrderManager.Insert(ord3);
+
+
+
+             List<Order> order=new List<Order>();
+             order.Add(ord1);
+             order.Add(ord2);
+             order.Add(ord3);
+
+             
+
+
+        List<Order> theOrder=OrderManager.GetAll();
+        Console.WriteLine("All order from json file.....");
+       
+
+       Order ord=OrderManager.GetById(24);
+       Console.WriteLine("{0} {1} {2} {3} {4}",ord.Id,ord.Date,ord.TotalAmount,ord.Status,ord.Items);     
+
+
+
+
+
+
