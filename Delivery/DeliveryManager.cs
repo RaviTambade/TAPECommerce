@@ -23,24 +23,24 @@ public static List<Consignment>ReStore(string fileName)
 }
 public static bool Insert (Consignment consignment)
 {
- List <Consignment> AllConsignments= ReStore("consignments.json");
- AllConsignments.Add(consignment);
- bool status =Store("consignments.json",AllConsignments);
+ List <Consignment> allConsignments= ReStore("consignments.json");
+ allConsignments.Add(consignment);
+ bool status =Store("consignments.json",allConsignments);
  return status;
 }
 public static bool Update (Consignment consignment)
 {
   bool status=false;
 
-  List<Consignment>AllConsignments= ReStore("consignment.json");
+  List<Consignment>allConsignments= ReStore("consignments.json");
 
-    foreach(Consignment TheConsignment in AllConsignments)
+    foreach(Consignment theConsignment in allConsignments)
         {
-           if (TheConsignment.TransectionId== consignment.TransectionId)
+           if (theConsignment.TransectionId== consignment.TransectionId)
              {
                TheConsignment.Pickuplocation= consignment.Pickuplocation;
                TheConsignment.DeliveryAddress=consignment.DeliveryAddress;
-               Store("Consignmet.json",AllConsignments);
+               Store("consignmets.json",allConsignments);
                status=true;
              }
 
@@ -50,18 +50,18 @@ public static bool Update (Consignment consignment)
 }
 public static List<Consignment> Getall()
 {
-List <Consignment>AllConsignment=ReStore("Consignment.json");
-return AllConsignment;
+List <Consignment>allConsignment=ReStore("consignments.json");
+return allConsignment;
 
 }
 
 public static Consignment GetByTransectionID(string TransectionId)
 {
- List<Consignment>AllConsignments=ReStore("Consignment.json");
+ List<Consignment>allConsignments=ReStore("consignments.json");
  {
   
   Consignment foundConsignment=null;
-  List<Consignment>allConsignments= ReStore("Consignments.json");
+  List<Consignment>allConsignments= ReStore("consignments.json");
 
 
 foreach(Consignment theConsignment in allConsignments)
@@ -98,12 +98,6 @@ public static bool Delete(string TransectionId)
         }
     return  status;
 
-
-
-
-
-
+    }
 }
-}
-
 
