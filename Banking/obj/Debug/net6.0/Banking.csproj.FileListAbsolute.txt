@@ -1,0 +1,12 @@
+D:\Transflower\Projects\TAPECommerce\Banking\bin\Debug\net6.0\Banking.deps.json
+D:\Transflower\Projects\TAPECommerce\Banking\bin\Debug\net6.0\Banking.dll
+D:\Transflower\Projects\TAPECommerce\Banking\bin\Debug\net6.0\Banking.pdb
+D:\Transflower\Projects\TAPECommerce\Banking\obj\Debug\net6.0\Banking.csproj.AssemblyReference.cache
+D:\Transflower\Projects\TAPECommerce\Banking\obj\Debug\net6.0\Banking.GeneratedMSBuildEditorConfig.editorconfig
+D:\Transflower\Projects\TAPECommerce\Banking\obj\Debug\net6.0\Banking.AssemblyInfoInputs.cache
+D:\Transflower\Projects\TAPECommerce\Banking\obj\Debug\net6.0\Banking.AssemblyInfo.cs
+D:\Transflower\Projects\TAPECommerce\Banking\obj\Debug\net6.0\Banking.csproj.CoreCompileInputs.cache
+D:\Transflower\Projects\TAPECommerce\Banking\obj\Debug\net6.0\Banking.dll
+D:\Transflower\Projects\TAPECommerce\Banking\obj\Debug\net6.0\refint\Banking.dll
+D:\Transflower\Projects\TAPECommerce\Banking\obj\Debug\net6.0\Banking.pdb
+D:\Transflower\Projects\TAPECommerce\Banking\obj\Debug\net6.0\ref\Banking.dll
