@@ -1,2 +1,2 @@
-bin/  # ignore bin directory
-obj/  # igone obj directory
+bin/*  # ignore bin directory
+obj/*  # igone obj directory
