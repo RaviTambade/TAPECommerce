@@ -4,7 +4,7 @@
     <ProjectReference Include="..\Catalog\Catalog.csproj" />
     <ProjectReference Include="..\Common\Common.csproj" />
     <ProjectReference Include="..\Banking\Banking.csproj" />
-    <ProjectReference Include="..\BusinessProcessing\BusinessProcessing.csproj" />     //my commit
+    <ProjectReference Include="..\BusinessProcessing\BusinessProcessing.csproj" />     
     <ProjectReference Include="..\CRM\CRM.csproj" />
   </ItemGroup>
 
