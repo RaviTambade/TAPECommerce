@@ -28,6 +28,7 @@ Manager.Display(allRetrivedPeople);
 
 */
 //Banking Test
+using CRM;
 using Banking;
 using Catalog;
 using BusinessProcessing;
@@ -125,3 +126,37 @@ Console.WriteLine ("Updated output");
 
 
 
+
+
+List <Customer> latestCustomer=CustomerManager.GetAll();
+Console.WriteLine("All Customers from Json File...");
+
+Customer cst1=new Customer
+{
+    Id="101",
+    FirstName="seeta",
+    LastName="shinde",
+    ContactNumber="9883764521",
+    Email="seeta.shinde@gmail.com",
+};
+
+CustomerManager.Insert(cst1);
+
+Customer cst2=new Customer
+{
+    Id="102",
+    FirstName="Geeta",
+    LastName="Jadhav",
+    ContactNumber="9883466523",
+    Email="geeta.jadhav@gmail.com",
+};
+CustomerManager.Insert(cst2);
+
+List <Customer> latestCustomers=CustomerManager.GetAll();
+Console.WriteLine("All Customers from Json File...");
+foreach(Customer cst in latestCustomers){
+Console.WriteLine("{0} {1} {2} {3} {4}",cst.Id, cst.FirstName, cst.LastName, cst.ContactNumber, cst.Email);
+
+}
+
+//commited by nutan navale
