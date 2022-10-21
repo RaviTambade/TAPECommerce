@@ -35,7 +35,7 @@ using Delivery;
 using BusinessProcessing;
 
 /*List<Account> allAccounts=AccountManger.GetAll();*/
-Account acct1=new Account{
+/*Account acct1=new Account{
     Id="565",
     Holder="Chandrakant Patil",
     Balance=67000
@@ -59,14 +59,14 @@ Console.WriteLine(" All Accounts from json file....");
 }
 */
 
-Account acct=AccountManger.GetById("589");
+/*Account acct=AccountManger.GetById("589");
 Console.WriteLine("{0}  {1}  {2}", acct.Id, acct.Holder, acct.Balance);
 
 Console.WriteLine("Thank you so much for using our services.");
 Console.WriteLine ("Updated output");
 
 
-
+*/
 
 
 
@@ -196,5 +196,58 @@ List<Consignment> allconsignments=DeliveryManager.Getall();
       }
 }  
 
+// Account manager test code  by sahil
+
+//Account code
+
+//using Banking;
+
+//creting object of Account class
+
+Account two=new Account("2","Abhay",10000);
+Account three=new Account("3","Shubhm",20000);
+Account five =new Account("5","Roshan",25000);
+
+
+
+
+List<Account> accounts=new List<Account>();
+//accounts.Add(one);
+accounts.Add(two);
+accounts.Add(three);
+accounts.Insert(0,five);  //built in List.insert method 
+                          // here 0 is index number
+                          // it will store as first item in file
+   
+   //accounts.Insert(2,new Account("4","Kunal",20000));  
+
+
+
+string fileName="accounts.json";
+// Testing Account in Main
+AccountManger.Store(fileName,accounts);
+List<Account> allRetrivedAccounts= AccountManger.Restore(fileName);
+AccountManger.Display(allRetrivedAccounts); 
+
+ Account one=new Account("1","sahil",5000);
+
+ AccountManger.Insert(one);  //Here inserted one named object in file 
+ AccountManger.Display(allRetrivedAccounts);
+
+
+ two.Holder="prakash";   //if we update values like this we need to use update function of class
+ two.Balance=12000;     //only then it will update inside file
+
+AccountManger.Update( two); 
+
+//another way is 
+//AccountManger.Update(new ("2","prakash",12000));
+
+AccountManger.Display(allRetrivedAccounts);
+
+//AccountManger.Delete("1");  
+
+
+Console.WriteLine( AccountManger.GetById("1")); // It will print ID=1  object
 
 
