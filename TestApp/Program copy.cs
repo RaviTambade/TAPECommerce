@@ -53,6 +53,7 @@ List<Product> products=new List<Product>();
 using Banking;
 using Catalog;
 using Common;
+using Delivery;
 using System.Collections.Generic;
 
 list<Account> allAccounts = AccountManager.GetAll();
@@ -133,6 +134,7 @@ System.Console.WriteLine("All Consignments from Json file");
 
 using Common;
 using CRM;
+
 using System.Collections.Generic;
 
 
@@ -153,3 +155,59 @@ foreach (Customer customer in latestCustomers)
      System.Console.WriteLine("{0} {1} {2} {3} {4}", customer.CustomerId,customer.FirstName,customer.LastName,customer.ContactNumber, customer.Email);
     
 }
+
+
+
+
+
+//Delivery Manager Program.cs file---
+/*
+using Delivery;
+using System.IO;
+using System.Collections.Generic;
+using System.Text.Json;
+
+List<Consignment> allConsignments = DeliveryManager.Getall();
+ {
+     Consignment c1=new Consignment
+      {
+      TransectionId="Mb202122",
+
+      Pickuplocation="Pune",
+ 
+      DeliveryAddress="Samatanagar Rajgurnagar",
+
+      DeliveryStatus="not recived"
+      };
+     DeliveryManager.Insert(c1);
+
+     Consignment c2=new Consignment
+     {
+      TransectionId="Mb202123",
+
+      Pickuplocation="Mumbai",
+ 
+      DeliveryAddress="Baner-BalewadiPune",
+
+      DeliveryStatus="not recived"
+     };
+
+    DeliveryManager.Insert(c2);
+
+List<Consignment> allconsignments=DeliveryManager.Getall();
+System.Console.WriteLine("All Consignments from Json file");
+
+ foreach (Consignment consignment in allConsignments)
+    {
+     System.Console.WriteLine("{0} {1} {2} {3}", consignment.TransectionId,consignment.Pickuplocation,consignment.DeliveryAddress, consignment.DeliveryStatus);
+    }
+}  
+
+*/
+
+
+
+
+
+
+
