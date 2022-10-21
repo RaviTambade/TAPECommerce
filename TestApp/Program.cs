@@ -31,6 +31,7 @@ Manager.Display(allRetrivedPeople);
 using CRM;
 using Banking;
 using Catalog;
+using Delivery;
 using BusinessProcessing;
 
 /*List<Account> allAccounts=AccountManger.GetAll();*/
@@ -160,3 +161,40 @@ Console.WriteLine("{0} {1} {2} {3} {4}",cst.Id, cst.FirstName, cst.LastName, cst
 }
 
 //commited by nutan navale
+
+
+
+//Delivery Manager Program.cs file---
+
+
+
+List<Consignment> allConsignments = DeliveryManager.Getall();
+ {
+     Consignment c1=new Consignment
+      {
+      TransectionId="Mb202122",
+      Pickuplocation="Pune",
+ 
+      DeliveryAddress="Samatanagar Rajgurnagar",
+      DeliveryStatus="not recived"
+      };
+     DeliveryManager.Insert(c1);
+     Consignment c2=new Consignment
+     {
+      TransectionId="Mb202123",
+      Pickuplocation="Mumbai",
+ 
+      DeliveryAddress="Baner-BalewadiPune",
+      DeliveryStatus="not recived"
+     };
+    DeliveryManager.Insert(c2);
+List<Consignment> allconsignments=DeliveryManager.Getall();
+    System.Console.WriteLine("All Consignments from Json file");
+    foreach (Consignment consignment in allConsignments)
+      {
+         System.Console.WriteLine("{0} {1} {2} {3}", consignment.TransectionId,consignment.Pickuplocation,consignment.DeliveryAddress, consignment.DeliveryStatus);
+      }
+}  
+
+
+
