@@ -38,10 +38,10 @@ dacStudents.Add(new Student { StudentID = 7, Name = "Sameer Kulkarni", Age = 18 
 
 
 //Business Rule
-
 Console.WriteLine("After Filter applying , Results shown");
-var filteredStudents = from student in dacStudents where student.Age> 20  && student.Age <45
-                        select student;
+var filteredStudents = from student in dacStudents 
+                       where student.Age> 20  && student.Age <45
+                       select student;
 
 foreach( Student student in filteredStudents )
 {
