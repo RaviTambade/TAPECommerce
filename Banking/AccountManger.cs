@@ -74,4 +74,11 @@ public class AccountManger
     }
     return  status;
     }
+  //Adding display method
+    public static void Display( List<Account> allAccounts){
+           allAccounts=Restore("accounts.json");
+        foreach( Account acct in allAccounts){
+    Console.WriteLine("{0}  {1}  {2}", acct.Id, acct.Holder, acct.Balance);
+}
+}
 }
