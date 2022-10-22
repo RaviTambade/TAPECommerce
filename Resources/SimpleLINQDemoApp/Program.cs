@@ -1,6 +1,5 @@
 ﻿using   LINQDemoApp;
 
-
 int[] marks = { 56, 54, 34, 76, 87, 98, 56, 89 };
 
 var firstFourNumbers = marks.Take(4);
