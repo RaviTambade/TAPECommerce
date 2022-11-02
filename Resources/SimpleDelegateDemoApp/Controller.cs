@@ -30,7 +30,7 @@ namespace SimpleDelegateDemoApp
         }
         public static void SendEmail(string email, string message)
         {
-            Console.WriteLine("Email has been sent to respective person");
+            Console.WriteLine("Email has been sent to respective person:{0},{1}",email,message);
         }
         public static void SendSMS(string contactNumber, string message)
         {

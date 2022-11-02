@@ -10,5 +10,5 @@ public class Customer:Person
         public List<Order>? OrdersHistory {get;set;}
         public   Account CurrentAccount{get;set;}
 
-        public CustomerId
+        public string CustomerId{get;set;}
 }
