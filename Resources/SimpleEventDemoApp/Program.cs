@@ -4,7 +4,7 @@ using GovtLib;
 
 
 
-Account acct = new Account(50000);
+Account acct = new Account(251234);
 
 Receiver receiver = new Receiver();
 TaxManager txmgr = new TaxManager();
@@ -29,3 +29,8 @@ Console.WriteLine("Enter Amount to Withdraw");
 double amount=double.Parse(Console.ReadLine());
 acct.Withdraw(amount);
 Console.WriteLine(acct.Balance);
+
+Console.WriteLine("Enter Amount to Deposit");
+double amount1=double.Parse(Console.ReadLine());
+acct.Deposit(amount1);
+Console.WriteLine(acct.Balance);                         //Commit by Abhay
