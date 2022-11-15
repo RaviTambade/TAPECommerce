@@ -1,6 +1,6 @@
 using System.Collection;
 
-namespace Collections;
+namespace Collections
 {
     public class car : IComparable
     {
@@ -66,15 +66,6 @@ namespace Collections;
         }
 
     }
-
-
-
-
-
-
-
-
-
 
 
 
