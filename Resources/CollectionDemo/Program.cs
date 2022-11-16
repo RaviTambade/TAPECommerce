@@ -25,12 +25,10 @@
                             },
 
     };
-
     foreach( string name in trainers )
     {
         Console.WriteLine(name);
     }
-
     foreach ( Student s in students )
     {
         Console.WriteLine(s.Id + "  " + s.Name + "  " + s.Location);

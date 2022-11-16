@@ -9,7 +9,6 @@ using System.Collections;
             this.Name = name;
             this.Runs = runs;
         }
-
         public int CompareTo(object obj)
         {
             Player temp = (Player)obj;

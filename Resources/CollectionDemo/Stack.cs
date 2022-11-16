@@ -1,11 +1,11 @@
 namespace Collections{
+
  class Stack : ICloneable {
         int size;
         int[] sArr;
 
         public Stack(int val1, int val2, int val3)
         {
-
         }
         public Stack(int s) : this()
         {

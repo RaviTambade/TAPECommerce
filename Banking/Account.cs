@@ -1,5 +1,5 @@
 ﻿namespace Banking;
-//Mother of all classes in programming C# is Object class
+    //Mother of all classes in programming C# is Object class
     //Object class have some default method with their Implementation
     // 1. ToString();
     public class Account {
@@ -9,8 +9,6 @@
         public string Id{get;set;}
         private List<Transaction> allTransactions = new List<Transaction>();
 
-
-       
 
         //constructor overloading
         //default constructor
@@ -48,7 +46,6 @@
                 balance += item.Amount;
                 report.AppendLine($"{item.Date.ToShortDateString()}\t{item.Amount}\t{balance}\t{item.Notes}");
             }
-
             return report.ToString();
         }
     
@@ -93,8 +90,5 @@
 
             return report.ToString();
         }
-        #endregion
-    
-    
-    
+        #endregion    
     }

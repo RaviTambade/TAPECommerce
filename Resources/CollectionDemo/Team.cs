@@ -1,5 +1,4 @@
-﻿ 
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 namespace Collections
 {
     class Team
@@ -21,7 +20,7 @@ namespace Collections
             }
             set
             {
-                this.players.Add(value);
+            this.players.Add(value);
             }
         }
     }

@@ -1,5 +1,4 @@
 using System.Collection;
-
 namespace Collections
 {
     public class car : IComparable

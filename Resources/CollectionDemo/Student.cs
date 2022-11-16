@@ -1,4 +1,3 @@
-
 namespace CollectionDemo
 {
     public struct Student
