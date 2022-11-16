@@ -19,6 +19,20 @@
             return base.ComputePay() + Incentive;
         }
 
+       
+       //Shadowing technique
+       //Hides the base class member in derived class by using keyword new
+       
+       /*
+       
+        public new double ComputePay()
+        {
+            return base.ComputePay() + Incentive;
+        }
+
+        */
+
+
         public override string ToString()
         {
             return base.ToString() + " Incentive = "+ Incentive;

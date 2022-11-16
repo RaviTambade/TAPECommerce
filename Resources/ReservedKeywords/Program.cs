@@ -31,3 +31,15 @@ value	var	    when	Where	    yield
 */
 
 Console.WriteLine("Hello, World!");
+
+//Using enum Week
+
+int a = (int)Week.Sunday;
+int b = (int)Week.Monday;
+int c = (int)Week.Tuesday;
+Console.WriteLine(Week.Sunday);
+Console.WriteLine(Week.Monday);
+Console.WriteLine("Sunday: {0}", a);
+Console.WriteLine("Monday: {0}", b);
+Console.WriteLine("Tuesday: {0}", c);
+Console.WriteLine("\nPress Enter Key to Exit..");

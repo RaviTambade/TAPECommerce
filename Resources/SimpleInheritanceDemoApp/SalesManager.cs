@@ -1,5 +1,6 @@
 ﻿namespace HR
 {
+    //Sealed class cannot be inherited
     public  sealed class SalesManager:SalesEmployee
     {
         public double Bonus { get; set; }
