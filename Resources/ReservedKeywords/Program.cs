@@ -21,7 +21,6 @@ true	    try	        switch	    this	    throw
 unchecked	unsafe	    ushort	    using	     static
 virtual	    typeof	    uint	    ulong	    out (generic modifier)
 
-
 *!Contextual  keywords
 
 add	    alias	async	await	    dynamic
@@ -30,6 +29,5 @@ group	into	join	let	        nameof
 global	partial	set	    remove	    select
 value	var	    when	Where	    yield
 */
-
 
 Console.WriteLine("Hello, World!");
