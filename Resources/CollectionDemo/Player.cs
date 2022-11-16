@@ -1,6 +1,4 @@
 using System.Collections;
-
- 
  public class Player : IComparable
     {
         public string Name { get; set; }
@@ -22,4 +20,4 @@ using System.Collections;
             else
                 return 0;
         }
-    }
+}

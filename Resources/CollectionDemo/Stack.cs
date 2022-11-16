@@ -1,5 +1,4 @@
 namespace Collections{
-
  class Stack : ICloneable {
         int size;
         int[] sArr;

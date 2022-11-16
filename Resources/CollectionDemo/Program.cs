@@ -1,6 +1,5 @@
 ﻿ //Array syntax in CSharp Programming Languge
     using CollectionDemo;
-    
 
     int [] numbers = { 23, 65, 87, 56, 45 };
     int[] marks = new int[5] { 76, 67, 78, 65, 45 };
@@ -26,7 +25,6 @@
                             },
 
     };
-
 
     foreach( string name in trainers )
     {

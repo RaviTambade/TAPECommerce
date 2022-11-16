@@ -1,7 +1,6 @@
 
 namespace Collections{
     public class  BusinessManager{
-
         static void Swap<T>(ref T lhs, ref T rhs)
         {
             T temp;
@@ -9,8 +8,6 @@ namespace Collections{
             lhs = rhs;
             rhs = temp;
         }
-        
-
     }
 }
 
