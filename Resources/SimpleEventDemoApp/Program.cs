@@ -2,8 +2,6 @@
 using Notifications;
 using GovtLib;
 
-
-
 Account acct = new Account(251234);
 
 Receiver receiver = new Receiver();

@@ -1,7 +1,7 @@
 ﻿
 namespace Notifications
 {
-    public  class Receiver
+        public  class Receiver
     {
         //Event handlers or Event Receivers or Event Hook functions 
         public void BlockAccount()
@@ -19,6 +19,5 @@ namespace Notifications
             Console.WriteLine("Message has been sent to your registered Mobile Number");
         }
 
-       
     }
 }
