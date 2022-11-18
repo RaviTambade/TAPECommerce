@@ -1,7 +1,6 @@
 public class Books
 {
     private string [] titles= new string [100];
-
     //indexer
     public string this [int index]
     {

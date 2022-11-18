@@ -9,3 +9,4 @@ namespace TFL;
             Friday,
             Saturday
         }
+        

@@ -15,7 +15,6 @@ public class OfficeBoy
         return _ref;
     }
 
-
     static void Main(string[] args)
     {
         OfficeBoy sweeper, waiter;

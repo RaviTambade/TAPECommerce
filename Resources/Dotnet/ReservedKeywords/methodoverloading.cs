@@ -10,7 +10,6 @@ public class MathEngine
          // another logic defined 
     }
 
-    
     public static void Main ()
     {
         double res= MathEngine.FindSquare(12.5);
