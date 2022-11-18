@@ -3,7 +3,6 @@ namespace Collections
 {
     public class car : IComparable
     {
-
         public int year;
         public string make;
         public int Year

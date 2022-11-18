@@ -1,7 +1,6 @@
 namespace  Collections 
  {
     public class DataManager{
-
         static void DemoRectangularArray()
         {
             int[,] mtrx = new int[2, 3] {

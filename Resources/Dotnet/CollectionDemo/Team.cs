@@ -10,7 +10,6 @@ namespace Collections
             this.Name = name;
         }
         //you can write mulitple properties for class
-
         //but you can have only one indexer per class
        public Player this[int index]
         {

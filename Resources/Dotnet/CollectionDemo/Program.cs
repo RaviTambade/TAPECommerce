@@ -6,7 +6,6 @@
     string[] trainers = { "Prachi", "Kishori", "Madhura", "Nilesh", "Amit" };
 
     //Arrays of object of type Student
-
     Student[] students = {
                             new Student{ BirthDate = new DateTime(1998, 3, 12),
                                             Name = "Akshay Girmal",

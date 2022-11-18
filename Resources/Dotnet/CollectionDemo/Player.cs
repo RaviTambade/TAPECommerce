@@ -3,7 +3,6 @@ using System.Collections;
     {
         public string Name { get; set; }
         public int Runs { get; set; }
-
         public Player(string name, int runs)
         {
             this.Name = name;

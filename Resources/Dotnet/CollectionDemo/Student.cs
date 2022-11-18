@@ -7,4 +7,5 @@ namespace CollectionDemo
         public DateTime BirthDate { get; set; }
         public string  Location { get; set; }
     }
+    
 }
