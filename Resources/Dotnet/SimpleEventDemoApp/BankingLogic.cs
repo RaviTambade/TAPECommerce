@@ -4,7 +4,6 @@ namespace BankingLogic
 	//this
 	public delegate void AccountHandler();
 	
-	
     public class Account
 	{
 

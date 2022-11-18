@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace GovtLib
 {
-
     //Hollywood design principle
     public  class TaxManager
     {
@@ -18,7 +17,6 @@ namespace GovtLib
         public void DeductServiceTax()
         {
             Console.WriteLine("Service tax has been deducted from your account...");
-
         }
         public void DeductTDS()
         {

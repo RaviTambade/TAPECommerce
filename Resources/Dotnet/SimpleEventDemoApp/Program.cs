@@ -7,7 +7,6 @@ Account acct = new Account(251234);
 Receiver receiver = new Receiver();
 TaxManager txmgr = new TaxManager();
 
-
 //Event Handler route mapping Logic
 //Mapping event handler routes
 
@@ -31,4 +30,4 @@ Console.WriteLine(acct.Balance);
 Console.WriteLine("Enter Amount to Deposit");
 double amount1=double.Parse(Console.ReadLine());
 acct.Deposit(amount1);
-Console.WriteLine(acct.Balance);                         //Commit by Abhay
+Console.WriteLine(acct.Balance);                     
