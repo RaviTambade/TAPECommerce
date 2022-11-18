@@ -2,7 +2,6 @@
         using System.IO;
         using TransflowerExceptions;
         
-        
         string fpath = @"D:\Test.txt";
         StreamReader sr = new StreamReader(fpath);
         try
@@ -24,7 +23,6 @@
             sr.Close();
             }
         }
-
 
     //Throwing Custom Exception
 
