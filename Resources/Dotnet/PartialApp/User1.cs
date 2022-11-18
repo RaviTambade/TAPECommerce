@@ -1,4 +1,3 @@
-
 namespace  TFL;
 public partial class User
 {
