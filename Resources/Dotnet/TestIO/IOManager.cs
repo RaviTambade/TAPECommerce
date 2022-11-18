@@ -5,7 +5,6 @@ namespace TFLIO;
 public class IOManager{
 
     //Following is the example of writing a text to file using the FileStream object in c#.
-
     public static void WriteToFile()
        {
           string fpath = @"D:\Test.txt";
