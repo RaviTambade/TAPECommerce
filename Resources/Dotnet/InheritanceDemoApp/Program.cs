@@ -2,7 +2,6 @@
 
 
 Console.WriteLine("Hello, World!");
-
 CustomerDashBoard dashboard = new CustomerDashBoard();
 
 dashboard.show();
