@@ -1,5 +1,4 @@
 namespace  Metadata;
-
 public class AuthorInformationAttribute : Attribute
 {
     public int YearPublished { get; set; }

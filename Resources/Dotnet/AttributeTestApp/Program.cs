@@ -9,4 +9,3 @@ var attribute =
                                                              attributeType);
 
 Console.WriteLine("Published by " + attribute.AuthorName  + " in " + attribute.YearPublished);
-

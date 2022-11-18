@@ -7,6 +7,5 @@ public class Complex {
 }
 
 
-
 [AuthorInformation(1706)] //Rough date of first English-language publication
 public class OneThousandAndOneNights { /*...*/ }
