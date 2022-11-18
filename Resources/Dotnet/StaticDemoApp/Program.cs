@@ -1,5 +1,4 @@
 ﻿using Training;
-
 //Creating instance (object) from class
 //Two objects are created and their address are strored in
 //std1 and std2

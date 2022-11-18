@@ -44,7 +44,6 @@ public class Student{
         this.qualification=education;
         this.email=em;
         count=count+1;
-
     }
 
     public override string ToString()
@@ -53,7 +52,6 @@ public class Student{
                                 this.id, this.fullName, this.qualification);
         return data;
     }
-
 
     public void ShowStatus(){
         Console.WriteLine("I am alive");
