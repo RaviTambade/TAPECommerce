@@ -1,7 +1,6 @@
 ﻿using System.Text;
 using System.Collections.Generic;
 
-
 // Declare without initializing.
 string str1;
 // Declaring and Initializing
