@@ -10,7 +10,7 @@
         protected int Attendance { get; set; }
         public Employee():base() 
         {
-            
+    
 
         }
         public Employee(int id, string fName, string lName, 
@@ -21,7 +21,6 @@
             Email = email;
             ContactNumber = contactNumber;
         }
-
         public virtual double ComputePay()
         {
             double salary = BasicSaslary + DailyAllowance * Attendance;

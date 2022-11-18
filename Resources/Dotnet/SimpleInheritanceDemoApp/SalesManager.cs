@@ -8,7 +8,6 @@
         {
 
         }
-
         public  SalesManager(int id, string fName, string lName,
                 DateTime bDate, string email, string contactNumber, double incentive,double bonus)
                 : base(id, fName, lName, bDate, email, contactNumber,incentive)

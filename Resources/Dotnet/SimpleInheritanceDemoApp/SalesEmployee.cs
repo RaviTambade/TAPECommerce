@@ -1,5 +1,6 @@
 ﻿namespace HR
 {
+    
     public class SalesEmployee:Employee
     {
         public double Incentive { get; set; }
