@@ -1,11 +1,9 @@
 ﻿using System;
 
-
 namespace SimpleDelegateDemoApp
 {
     //Hollywood Design Principle
     //Don't call me , I will call you.
-
 
     public delegate void TaxHandler(double amount);
     public delegate void dispatcher(string name, string body);

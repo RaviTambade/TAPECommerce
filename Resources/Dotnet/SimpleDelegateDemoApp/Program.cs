@@ -6,8 +6,6 @@
     // It a object oriented  managed typsafe function Pointer
     // it a .net object wrapper for function Pointer
 
-
-
   //Rules for defininf delegate:
     // 1.return type is common
     // 2.input type is also common
