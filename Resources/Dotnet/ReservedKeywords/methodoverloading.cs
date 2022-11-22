@@ -5,9 +5,11 @@ public class MathEngine
 {
     public static double FindSquare (double number) {
          // logic defined 
+         return 34D;
     }
     public static double FindSquare (int number) {
          // another logic defined 
+         return 56D;
     }
 
     public static void Main ()

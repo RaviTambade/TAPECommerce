@@ -1,19 +1,33 @@
 
 public class DemoClass {
-    public   static void  Swap (ref int n1, ref int n2)
+    //method overloading
+    //function overloading
+    //pass by value
+    public   static void  Swap ( int n1, int n2)
     {
-            int temp =n1; n1=n2; n2=temp;
+        //swapping of values
+
+            int temp =n1; 
+            n1=n2;
+            n2=temp;
+            Console.WriteLine(  " n1 ="+ n1 + " n2= "+ n2);
+
     }
-    public static void  Calculate (float radius, out float area, out float circum)
+
+    //pass by address
+    //pass by reference
+    public  static void  Swap (ref int n1, ref int n2)
     {
+        ///swapping of addresses (references)
+            int temp =n1;
+             n1=n2; 
+             n2=temp;
+    }
+    
+    public static void   Calculate (float radius, out float area, out float circum)
+    {
+        //out variables values are changed by function
         area=3.14f * radius * radius;
         circum=2*3.14f * radius;
-    }
-    public static void Main ()
-    {
-        int x=10, y=20;
-        Swap (ref x, ref y);
-        float area, circum;
-        Calculate (5, out area, out circum);
     }
 }

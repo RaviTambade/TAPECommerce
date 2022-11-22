@@ -29,11 +29,11 @@ global	partial	set	    remove	    select
 value	var	    when	Where	    yield
 */
 
-Console.WriteLine("Hello, World!");
+//Console.WriteLine("Hello, World!");
 
 //Using enum Week
 
-int a = (int)Week.Sunday;
+/*int a = (int)Week.Sunday;
 int b = (int)Week.Monday;
 int c = (int)Week.Tuesday;
 Console.WriteLine(Week.Sunday);
@@ -42,3 +42,35 @@ Console.WriteLine("Sunday: {0}", a);
 Console.WriteLine("Monday: {0}", b);
 Console.WriteLine("Tuesday: {0}", c);
 Console.WriteLine("\nPress Enter Key to Exit..");
+*/
+
+//Using ref and Out Keyword demo
+
+
+//main entry point
+/*int x=10, y=20;
+Console.WriteLine("Before swap function calling");
+Console.WriteLine( "x="+ x + " y="+y);
+//DemoClass.Swap (x,  y);//pass by value
+
+DemoClass.Swap ( ref x,  ref  y);//pass by references
+Console.WriteLine("After swap function calling");
+Console.WriteLine( "x="+ x + " y="+y);
+
+*/
+
+/*int radius=25;
+float circumference=0;
+float area=0;
+Console.WriteLine("Before calculate function calling");
+Console.WriteLine( "area= {0}  circumference= {1}", area,circumference);
+DemoClass.Calculate(radius, out area,  out circumference);
+Console.WriteLine("After calculate function calling");
+Console.WriteLine( "area= {0}  circumference= {1}", area,circumference);
+
+*/
+
+ Test.ViewNames("Nitin", "Nilesh", "Shrinivas");
+ Test.ViewNames("Sunday", "Monday", "Tuesday", "Wedensday", "Friday", "Saturday");
+ Test.ViewNames("Pune", "Mumbai");
+

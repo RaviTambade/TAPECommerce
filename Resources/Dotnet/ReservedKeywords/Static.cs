@@ -9,7 +9,7 @@ public class MyMathClass
     { PI = 3.14; }
  }
 
- public class Program
+ public class Program123
  {
     static void Main(string [] args)
     {

@@ -6,14 +6,14 @@ public class Books
     {
         get{
             if (index <0 || index >=100)
-            return 0;
+             throw new Exception("index is not in context");
         else
             return titles [index];
         }
 
         set{
-            if (! index <0 || index >=100)
-            return 0;
+            if (index <0 || index >=100)
+                throw new Exception("index is not in context");
             else
             titles [index] =value;
         }
@@ -23,6 +23,6 @@ public class Books
     public static void Main ()
     { 
         Books mybooks=new Books ();
-        Mybooks [3] ="Mogali in Jungle";
+        mybooks [3] ="Mogali in Jungle";
     }
 }
