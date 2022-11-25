@@ -12,7 +12,6 @@ public  class Player:IComparable {
         this.matches=matches;
         this.runs=runs;
     }
-
     public int CompareTo(object? obj)
     {
         //Typing
@@ -51,11 +50,8 @@ public  class Player:IComparable {
         return 0;
          
     }
-
-
-
     public override string ToString()
     {
-        return    this.name + " "+ this.age + " "+ this.runs + "  "+ this.matches;
+    return    this.name + " "+ this.age + " "+ this.runs + "  "+ this.matches;
     }
 }

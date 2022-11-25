@@ -9,6 +9,8 @@ public class IOManager{
        {
           string fpath = @"D:\Test.txt";
           // Delete file if exists
+          // File class contains static functions such as 
+          //  OpenRead,Exists,Create ,Delete, etc.
           if (File.Exists(fpath))
           {
               File.Delete(fpath);
@@ -16,9 +18,10 @@ public class IOManager{
           // Create the file
           using (FileStream fs = File.Create(fpath))
           {
+            //invoke reusable function for adding text to fileStream object
               AddTexttoFile(fs, "Hi");
               AddTexttoFile(fs, "\r\nWelcome to Transflower");
-              AddTexttoFile(fs, "\r\nFileStream Example");
+              AddTexttoFile(fs, "\r\nLearning is a fun when we actually try programming on machine");
           }
        }
     private static void AddTexttoFile(FileStream fs, string value)
@@ -44,6 +47,9 @@ public class IOManager{
              }
           }
      }
+
+
+
 
     public static void WriteUsingTextWriter(){
         string fpath = @"D:\Test.txt";
@@ -222,6 +228,5 @@ public class IOManager{
         }
         Console.ReadLine();
     }
-
 
 }
