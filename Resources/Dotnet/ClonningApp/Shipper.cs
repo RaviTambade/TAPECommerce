@@ -3,7 +3,6 @@ using System;
 using System.Collections;
 
 public class Shipper: ICloneable {  
-    
     public int id;  
     public string name;  
     
@@ -18,7 +17,7 @@ public class Shipper: ICloneable {
 
     public  object Clone() { 
         //Logic for creating replica of same object as another new object
-        
+
        Shipper temp=new Shipper();
        temp.id=this.id;
        temp.name=this.name;
