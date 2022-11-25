@@ -8,7 +8,6 @@ string filePath=@"d:\Data.txt";
     File.Delete(filePath);
 }
 */
-
 //Exception Handling
 try{
     //Text Writing
