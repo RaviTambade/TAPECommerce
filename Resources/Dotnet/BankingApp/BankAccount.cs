@@ -7,6 +7,7 @@ namespace Banking
     {
         public string Number { get; }
         public string Owner { get; set; }
+        
         #region BalanceComputation
         public decimal Balance
         {
