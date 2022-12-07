@@ -10,6 +10,12 @@ Username: root
 Password: password
 Table Name: student
 <br/>
--Step - 1: Create connection to DB. In case of JDBC failure, we will throw an error message
--Step - 2: We will add 3 records to Database
--Step - 3: We will read all records one by one and print it on debug  Console of vs code
+There are following six steps involved in building a JDBC application −
+
+-Import the packages − Requires that you include the packages containing the JDBC classes needed for database programming. Most often, using import java.sql.* will suffice.
+
+-Open a connection − Requires using the DriverManager.getConnection() method to create a Connection object, which represents a physical connection with the database.
+
+-Execute a query − Requires using an object of type Statement for building and submitting an SQL statement to the database.
+
+-Extract data from result set − Requires that you use the appropriate ResultSet.getXXX() method to retrieve the data from the result set.
