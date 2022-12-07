@@ -1,4 +1,4 @@
-Why You Have To Fix Your Problems Directly
+##Why You Have To Fix Your Problems Directly
 
 
 🔥 Bugs and problems are expensive if you don't react early. The 1:10:100 rule was developed by George Labovitz and Yu Sang Chang in 1992 related to data quality but it is also applicable to other processes like software development and even to your life.
@@ -13,9 +13,9 @@ Why You Have To Fix Your Problems Directly
 ❓ What else is important?
 
 <p align="center">
-    <img src="/media-files/hms-use-case-diagram.svg" alt="Hotel Management System Use Case Diagram">
+    <img src="/Resources/media-files/ProductionProblem.jpeg" alt="Why you have to fix problems early">
     <br />
-    Use Case Diagram for Hotel Management System
+    Why you have to fix problems early
 </p>
 
 ## JDBC application :
