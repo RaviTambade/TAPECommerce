@@ -24,6 +24,7 @@ public static class MySQLDBManager{
                          " lastName VARCHAR(55),"+
                          " qualification VARCHAR(55)"+                        
                          ")";
+            Console.WriteLine(query);
             MySqlCommand cmd=new MySqlCommand(query,con);
             con.Open();
             cmd.ExecuteNonQuery();  
@@ -49,6 +50,8 @@ public static class MySQLDBManager{
             /* DDL Command */
            string query="INSERT INTO students (firstName, lastName, qualification) values('"+
                         fname+ "', '"+lname + "', '"+ qual+ "')";
+
+            Console.WriteLine(query);
 
             MySqlCommand cmd=new MySqlCommand(query,con);
             con.Open();
@@ -76,6 +79,7 @@ public static class MySQLDBManager{
                         "lastName='"+lname+ "'"+
                         "qualification='"+qual+ "'"+
                          "WHERE studentid="+id;
+             Console.WriteLine(query);
             MySqlCommand cmd=new MySqlCommand(query,con);
             con.Open();
             cmd.ExecuteNonQuery();  
@@ -99,6 +103,7 @@ public static class MySQLDBManager{
         try{
             /* Update Command */
             string query="DELETE from students  WHERE studentId="+id;
+            Console.WriteLine(query);
             MySqlCommand cmd=new MySqlCommand(query,con);
             con.Open();
             cmd.ExecuteNonQuery();  
