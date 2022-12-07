@@ -36,14 +36,16 @@ MySqlConnection con=new MySqlConnection();
 try{
     con.ConnectionString=conStr;
     con.Open();
-    string query = "SELECT * FROM Employees";
+    //string query = "SELECT * FROM Employees";
+    //string query = "SELECT * FROM Employees WHERE jobTitle='President'";
+    string query = "SELECT * FROM Employees WHERE jobTitle='Sales Rep' ORDER BY officeCode";
     MySqlCommand cmd = new MySqlCommand(query, con);
     MySqlDataReader rdr = cmd.ExecuteReader();
 
     while (rdr.Read())
     {
         //Console.WriteLine(rdr[0]+" -- "+rdr[1]+" -- "+rdr[2]+" -- "+rdr[4]);
-        Console.WriteLine(rdr["employeeNumber"]+" -- "+rdr["lastName"]+" -- "+rdr["firstName"]+" -- "+rdr["email"]);
+        Console.WriteLine(rdr["officeCode"]+"***" + rdr["employeeNumber"]+" -- "+rdr["lastName"]+" -- "+rdr["firstName"]+" -- "+rdr["jobTitle"]);
     }
     rdr.Close();
 }
