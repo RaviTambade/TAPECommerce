@@ -14,3 +14,6 @@ ________________________________________________________________________________
 ###### 6.Follow Software Design Principles: SOLID, DRY, Hollywood,etc.
 ###### 7.Apply Continous Development/ Integration for Building Cloud ready Solution from scractc in Agile way
 ###### 8.Build capability for Continous Learning
+
+<a href="https://github.com/RaviTambade/TAPECommerce/tree/master/Resources/Dotnet/SimpleMySQLDBConnectApp">Simple mysql connectivity project</a>
+<img src="https://github.com/RaviTambade/TAPECommerce/blob/master/Resources/Images/databaseconnectivity.png"/>
