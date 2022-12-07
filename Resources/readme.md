@@ -1,4 +1,4 @@
-##JDBC application :
+## JDBC application :
 Create class DBManager.java
 Create standard DB Connection, PreparedStatement and ResultSet Objects
 Perform executeUpdate() operation to insert data into Table
