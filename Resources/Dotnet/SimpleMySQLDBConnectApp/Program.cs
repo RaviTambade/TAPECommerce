@@ -42,16 +42,18 @@ try{
     MySqlCommand cmd = new MySqlCommand(query, con);
     MySqlDataReader rdr = cmd.ExecuteReader();
 
-    while (rdr.Read())
+   while (rdr.Read())
     {
         //Console.WriteLine(rdr[0]+" -- "+rdr[1]+" -- "+rdr[2]+" -- "+rdr[4]);
         Console.WriteLine(rdr["officeCode"]+"***" + rdr["employeeNumber"]+" -- "+rdr["lastName"]+" -- "+rdr["firstName"]+" -- "+rdr["jobTitle"]);
     }
     rdr.Close();
 }
+
 catch(Exception ee){
-    Console.WriteLine(ee.Message);
+    Console.WriteLine("Exception :  "+ee.Message);
 }
+
 finally{
     con.Close();
 }
